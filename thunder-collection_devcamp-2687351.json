@@ -1,0 +1,50 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "devcamp-2687351",
+    "dateExported": "2023-10-26T16:43:07.151Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "c7c04c3d-1fa8-4212-958f-e6836261b283",
+            "name": "bootcamps",
+            "containerId": "",
+            "created": "2023-10-26T15:33:34.892Z",
+            "sortNum": 10000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "33b8fdda-67c6-4547-b24b-465469ec1c82",
+            "colId": "92f380e0-2af1-4a48-8d61-cc325ff62b99",
+            "containerId": "c7c04c3d-1fa8-4212-958f-e6836261b283",
+            "name": "Traer todos los bootcamps",
+            "url": "http://127.0.0.1:8888/api/v1/devcamp/bootcamps",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-10-26T15:34:05.540Z",
+            "modified": "2023-10-26T15:39:40.142Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "3d14f278-b94a-4af6-b537-55ec08060b28",
+            "colId": "92f380e0-2af1-4a48-8d61-cc325ff62b99",
+            "containerId": "c7c04c3d-1fa8-4212-958f-e6836261b283",
+            "name": "CreateBootcamp",
+            "url": "http://127.0.0.1:8888/api/v1/devcamp/bootcamps",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-10-26T16:29:57.240Z",
+            "modified": "2023-10-26T16:33:15.217Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
